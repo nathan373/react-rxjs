@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { messageService } from '@/_services';
+import { messageService } from '@/services';
 
 class HomePage extends React.Component {
     sendMessage() {
@@ -16,7 +16,7 @@ class HomePage extends React.Component {
     render() {
         return (
             <div>
-                <h2>React + RxJS Component Communication</h2>
+                <h2>React + RxJS</h2>
                 <button onClick={this.sendMessage} className="btn btn-primary">Send Message</button>
                 <button onClick={this.clearMessages} className="btn btn-secondary">Clear Messages</button>                
             </div>

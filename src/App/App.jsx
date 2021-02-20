@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import { messageService } from '@/_services';
+import { messageService } from '@/services';
 import { HomePage } from '@/HomePage';
 
 class App extends React.Component {
