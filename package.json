@@ -1,9 +1,9 @@
 {
-  "name": "react-rxjs-communicating-between-components",
+  "name": "react-rxjs",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cornflourblue/react-rxjs-communicating-between-components.git"
+    "url": "https://github.com/nathan373/react-rxjs.git"
   },
   "license": "MIT",
   "scripts": {
